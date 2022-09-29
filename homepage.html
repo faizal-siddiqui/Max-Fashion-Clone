@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous">
+  
+    </script>
+    <link rel="stylesheet" href="homepage.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- TopBar -->
+    <div id="topbar">
+        <div>
+            <a href=""></a>
+            <div><a href=""><span id="top-font"><i class="fa-solid fa-truck-fast"></i></span></i> &ensp;Free shipping</a></div>
+            <div><a href=""><span id="top-font"><i class="fa-sharp fa-solid fa-shop"></i></span>&ensp; Return to store</a></div>
+            <div><a href=""><span id="top-font"><i class="fa-sharp fa-solid fa-gift"></i></span> &emsp; Online gift card</a></div>
+        </div>
+        <div>
+            <div><a href="">Download our Apps </a></div>
+            <div><a href="">Store Locator</a></div>
+            <div><a href="">Help </a></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div id="Navbar">
+        <div>
+            <img src="data:image/png;base64,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" alt="">
+            <ul>
+                <li>
+                    <a href="">Women</a>
+                    <div class="megamenu">
+                        <div class="megamenucontent">
+                           
+                            <!-- first -->
+                            <ul>
+                                <h3>Online Exclusives</h3>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li><a href="">Indian wear</a>
+                                </li>
+                                <li>
+                                    <a href="">sports wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                                <li>
+                                    <a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Bottom Wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+
+
+                                <h3 >Curves(Plus size)</h3>
+                                <li>
+                                    <a href="">Tops & Tees</a>
+                                </li>
+                                <li><a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li>
+                                    <a href="">Denims</a>
+                                </li>
+                                <li>
+                                    <a href="">Sportswear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                            </ul>
+
+                            <!-- second -->
+
+                            <ul>
+                                <h3>Tops</h3>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li><a href="">Tops and Tees</a>
+                                </li>
+                                <li>
+                                    <a href="">Shirts</a>
+                                </li>
+                                <li>
+                                    <a href="">Tunics</a>
+                                </li>
+                                <li>
+                                    <a href="">Shrugs</a>
+                                </li>
+                                <li>
+                                    <a href="">Zodiac Tees</a>
+                                </li>
+                                <li>
+                                    <a href="">Curves(Plus Size)</a>
+                                </li>
+                                
+
+
+                                <h3 >Bottoms</h3>
+                                <li>
+                                    <a href="">Jeans and Jeggings</a>
+                                </li>
+                                <li><a href="">Trousers and Treggings</a>
+                                </li>
+                                <li>
+                                    <a href="">Capris</a>
+                                </li>
+                                <li>
+                                    <a href="">Shorts and Skirts</a>
+                                </li>
+                                <li>
+                                    <a href="">Leggings</a>
+                                </li>
+                                <li>
+                                    <a href="">Jeans curves(Plus Size)</a>
+                                </li>
+                                <li>
+                                    <a href="">Fashion Bottom Curves (Plus Size)</a>
+                                </li>
+                            </ul>
+
+                            <!-- third -->
+
+                            <ul>
+                                <h3>Dresses and Jumpsuits</h3>
+                                <li>
+                                    <a href="">Dresses</a>
+                                </li>
+                                <li><a href="">Jumpsuits & Dangerous</a>
+                                </li>
+                                <li>
+                                    <a href="">Curves(Plus Size)</a>
+                                </li>
+                                
+
+                                <h3 >Sleepwear</h3>
+                                <li>
+                                    <a href="">Dresses & Gowns</a>
+                                </li>
+                                <li><a href="">Sets</a>
+                                </li>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li>
+                                    <a href="">Bottoms</a>
+                                </li>
+                                <li>
+                                    <a href="">Curves(Plus Size)</a>
+                                </li>
+                                <li class="hid">
+                                    <a href="">Tops</a>
+                                </li>
+                                <li class="hid">
+                                    <a href="">Bottoms</a>
+                                </li>
+                                <li class="hid">
+                                    <a href="">Sportswear</a>
+                                </li>
+                                <li class="hid">
+                                    <a href="">Curves(Plus size)</a>
+                                </li>   
+                            </ul>
+
+                            <!-- fourth -->
+
+                            <ul>
+                                <h3>Indian Wear</h3>
+                                <li>
+                                    <a href="">Kurtas & Kurtis</a>
+                                </li>
+                                <li><a href="">Tops</a>
+                                </li>
+                                <li>
+                                    <a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Suits & Sets</a>
+                                </li>
+                                <li>
+                                    <a href="">Plazzos & Culottes</a>
+                                </li>
+                                <li>
+                                    <a href="">Salwar & patialas</a>
+                                </li>
+                                <li>
+                                    <a href="">Skirts</a>
+                                </li>
+                                <li>
+                                    <a href="">Fashion Bottoms</a>
+                                </li>
+                                <li><a href="">Kotis</a>
+                                </li>
+                                <li>
+                                    <a href="">Dupattas</a>
+                                </li>
+                                <li>
+                                    <a href="">Churidars & Leggings</a>
+                                </li>
+
+                                <h3 >Sportswear</h3>
+                               
+                                <li>
+                                    <a href="">Tops & Tees</a>
+                                </li>
+                                <li>
+                                    <a href="">Trackpants & joggers</a>
+                                </li>
+                                <li>
+                                    <a href="">Shorts & Capris</a>
+                                </li>
+                            </ul>
+
+                            <!-- fifth -->
+
+                            <ul>
+                                <h3>Lingerie</h3>
+                                <li>
+                                    <a href="">Bras</a>
+                                </li>
+                                <li><a href="">Camisoles</a>
+                                </li>
+                                <li>
+                                    <a href="">Panties</a>
+                                </li>
+                                <li>
+                                    <a href="">Curves(Plus Size)</a>
+                                </li>
+                               
+
+
+                                <h3 >Accessories</h3>
+                                <li>
+                                    <a href="">Face Mask</a>
+                                </li>
+                                <li><a href="">Bags</a>
+                                </li>
+                                <li>
+                                    <a href="">Caps</a>
+                                </li>
+                                <li>
+                                    <a href="">Scarves</a>
+                                </li>
+                                <li>
+                                    <a href="">Stoles</a>
+                                </li>
+                                <li>
+                                    <a href="">Belts</a>
+                                </li>
+                                <li>
+                                    <a href="">Wallets & Pouches</a>
+                                </li>
+                                <li>
+                                    <a href="">Socks</a>
+                                </li>
+                                <li>
+                                    <a href="">Handkerchief</a>
+                                </li>
+                                <li>
+                                    <a href="">Jewellery</a>
+                                </li>
+                            </ul>
+
+                            <!-- sixth -->
+                            <ul>
+                                <h3>Footwear</h3>
+                                <li>
+                                    <a href="">Ballerinas</a>
+                                </li>
+                                <li><a href="">Flat Sandals</a>
+                                </li>
+                                <li>
+                                    <a href="">Heels</a>
+                                </li>
+                                <li>
+                                    <a href="">Casual Shoes</a>
+                                </li>
+                                <li>
+                                    <a href="">Flip Flops</a>
+                                </li>
+                                <li>
+                                    <a href="">Sport Shoes</a>
+                                </li>
+                                <li>
+                                    <a href="">Boots</a>
+                                </li>
+
+
+                                <h3>Winterwear</h3>
+                                <li>
+                                    <a href="">SweatShirts & Hoodies</a>
+                                </li>
+                                <li><a href="">Sweaters & Cardigans</a>
+                                </li>
+                                <li>
+                                    <a href="">Jackets</a>
+                                </li>
+                                <li>
+                                    <a href="">Accessories</a>
+                                </li>
+                                <li class="hid" >
+                                    <a href=""></a>
+                                </li>
+                                <li class="hid" >
+                                    <a href=""></a>
+                                </li>
+                                <li class="hid" >
+                                    <a href="">Lingerie</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">Men</a>
+                    <div class="megamenu">
+                        <div class="megamenucontent">
+                           
+                            <!-- first -->
+                            <ul>
+                                <h3>Online Exclusives</h3>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li><a href="">Indian wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Bottoms</a>
+                                </li>
+                                <li>
+                                    <a href="">Loungewear</a>
+                                </li>
+                                <li>
+                                    <a href="">Shoes</a>
+                                </li>
+                                <li><a href="">Dresses</a>
+                                </li>
+                                <li class="hid">
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li class="hid" >
+                                    <a href="">Denims</a>
+                                </li>
+                                <h3 class="hid" >Curves(Plus size)</h3>
+                            </ul>
+
+                            <!-- second -->
+
+                            <ul>
+                                <h3>Tops</h3>
+                                <li>
+                                    <a href="">T-shirts</a>
+                                </li>
+                                <li><a href="">Polos</a>
+                                </li>
+                                <li>
+                                    <a href="">Casual shirts</a>
+                                </li>
+                                <li>
+                                    <a href="">Formal Shirts</a>
+                                </li>
+                            
+                                <h3>Bottoms</h3>
+                                <li>
+                                    <a href="">Jeans</a>
+                                </li>
+                                <li><a href="">Trousers</a>
+                                </li>
+                                <li>
+                                    <a href="">Shorts & 3/4ths</a>
+                                </li>
+                                <li class="hid" >
+                                    <a href="">Denims</a>
+                                </li>
+                                
+                            </ul>
+
+                            <!-- third -->
+
+                            <ul>
+                                <h3>Sportswear</h3>
+                                <li>
+                                    <a href="">Tees & Polos</a>
+                                </li>
+                                <li><a href="">TrackPants & joggers</a>
+                                </li>
+                                <li>
+                                    <a href="">Shorts & 3/4ths</a>
+                                </li>
+                                <li class="hid" >
+                                    <a href="">Lingerie</a>
+                                </li>
+                                
+
+
+                                <h3>Loungewear</h3>
+                                <li>
+                                    <a href="">Tees</a>
+                                </li>
+                                <li><a href="">Bottoms</a>
+                                </li>
+                                <li>
+                                    <a href="">Sets</a>
+                                </li>
+                                <li class="hid">
+                                    <a href="">Denims</a>
+                                </li>
+                                
+                            </ul>
+
+                            <!-- fourth -->
+
+                            <ul>
+                                <h3>Innerwear</h3>
+                                <li>
+                                    <a href="">Vests</a>
+                                </li>
+                                <li><a href="">Indian wear</a>
+                                </li>
+                                <li>
+                                    <a href="">sports wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Boxers</a>
+                                </li>
+                                
+
+
+                                <h3>Indian wear</h3>
+                                <li>
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li><a href="">Jackets</a>
+                                </li>
+                                <li class="hid">
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li class="hid">
+                                    <a href="">Denims</a>
+                                </li>
+                                
+                            </ul>
+
+                            <!-- fifth -->
+
+                            <ul>
+                                <h3>Accessories</h3>
+                                <li>
+                                    <a href="">Face masks</a>
+                                </li>
+                                <li><a href="">Bags</a>
+                                </li>
+                                <li>
+                                    <a href="">Belts</a>
+                                </li>
+                                <li>
+                                    <a href="">Caps</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="">Wallets</a>
+                                </li>
+                                <li><a href="">Shocks</a>
+                                </li>
+                                <li>
+                                    <a href="">Handkerchief</a>
+                                </li>
+                                <li>
+                                    <a href="">Neck ties</a>
+                                </li>
+                                <h3 class="hid">Curves(Plus size)</h3>
+                               
+                            </ul>
+
+                            <!-- sixth -->
+                            <ul>
+                                <h3>Footwear</h3>
+                                <li>
+                                    <a href="">Casual Shoes</a>
+                                </li>
+                                <li><a href="">Sports Shoes</a>
+                                </li>
+                                <li>
+                                    <a href="">Sandals & Flip Flops</a>
+                                </li>
+                                <li class="hid">
+                                    <a href="">Lingerie</a>
+                                </li>
+                               
+
+
+                                <h3>Winterwear</h3>
+                                <li>
+                                    <a href="">Sweatshirts & Hoddies</a>
+                                </li>
+                                <li><a href="">Sweat & cardigansers</a>
+                                </li>
+                                <li>
+                                    <a href="">Jackets</a>
+                                </li>
+                                <li>
+                                    <a href="">Accessories</a>
+                                </li>
+                               
+                            </ul>   
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">Girls</a>
+                    <div class="megamenu">
+                        <div class="megamenucontent">
+                            <!-- first -->
+                            <ul>
+                                <h3>Online Exclusives</h3>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li><a href="">Indian wear</a>
+                                </li>
+                                <li>
+                                    <a href="">sports wear</a>
+                                </li>
+                               
+                                <li>
+                                    <a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Bottom Wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+
+
+                                <h3>Tops</h3>
+                                <li>
+                                    <a href="">Tops & Tees</a>
+                                </li>
+                                <li><a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li>
+                                    <a href="">Denims</a>
+                                </li>
+                                <li>
+                                    <a href="">Sportswear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                            </ul>
+
+                            <!-- second -->
+
+                            <ul>
+                                <h3>Dresses</h3>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li><a href="">Indian wear</a>
+                                </li>
+                                <li>
+                                    <a href="">sports wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                                <li>
+                                    <a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Bottom Wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+
+
+                                <h3>Bottoms</h3>
+                                <li>
+                                    <a href="">Tops & Tees</a>
+                                </li>
+                                <li><a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li>
+                                    <a href="">Denims</a>
+                                </li>
+                                <li>
+                                    <a href="">Sportswear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                            </ul>
+
+                            <!-- third -->
+
+                            <ul>
+                                <h3>Essentials</h3>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li><a href="">Indian wear</a>
+                                </li>
+                                <li>
+                                    <a href="">sports wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                                <li>
+                                    <a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Bottom Wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+
+
+                                <h3>Accesories</h3>
+                                <li>
+                                    <a href="">Tops & Tees</a>
+                                </li>
+                                <li><a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li>
+                                    <a href="">Denims</a>
+                                </li>
+                                <li>
+                                    <a href="">Sportswear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                            </ul>
+
+                            <!-- fourth -->
+
+                            <ul>
+                                <h3>Footwear</h3>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li><a href="">Indian wear</a>
+                                </li>
+                                <li>
+                                    <a href="">sports wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                                <li>
+                                    <a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Bottom Wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+
+
+                                <h3>Innerwear</h3>
+                                <li>
+                                    <a href="">Tops & Tees</a>
+                                </li>
+                                <li><a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li>
+                                    <a href="">Denims</a>
+                                </li>
+                                <li>
+                                    <a href="">Sportswear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                            </ul>
+
+                            <!-- fifth -->
+
+                            <ul>
+                                <h3>Winterwear</h3>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li><a href="">Indian wear</a>
+                                </li>
+                                <li>
+                                    <a href="">sports wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                                <li>
+                                    <a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Bottom Wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+
+
+                                <h3>Baby Girl</h3>
+                                <li>
+                                    <a href="">Tops & Tees</a>
+                                </li>
+                                <li><a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li>
+                                    <a href="">Denims</a>
+                                </li>
+                                <li>
+                                    <a href="">Sportswear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                            </ul>
+
+                            <!-- sixth -->
+                            <ul>
+                                <h3>Party wear</h3>
+                                <li>
+                                    <a href="">Tops</a>
+                                </li>
+                                <li><a href="">Indian wear</a>
+                                </li>
+                                <li>
+                                    <a href="">sports wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                                <li>
+                                    <a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Bottom Wear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+
+
+                                <h3>Birthday Wear</h3>
+                                <li>
+                                    <a href="">Tops & Tees</a>
+                                </li>
+                                <li><a href="">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="">Kurtas</a>
+                                </li>
+                                <li>
+                                    <a href="">Denims</a>
+                                </li>
+                                <li>
+                                    <a href="">Sportswear</a>
+                                </li>
+                                <li>
+                                    <a href="">Sleepwear</a>
+                                </li>
+                                <li>
+                                    <a href="">Lingerie</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">Boys</a>
+                    <div class="megamenu">
+                        <div class="megamenucontent">
+                           <!-- first -->
+                           <ul>
+                            <h3>Online Exclusives</h3>
+                            <li>
+                                <a href="">Tops</a>
+                            </li>
+                            <li><a href="">Indian wear</a>
+                            </li>
+                            <li>
+                                <a href="">sports wear</a>
+                            </li>
+                            <li>
+                                <a href="">Lingerie</a>
+                            </li>
+                            <li>
+                                <a href="">Dresses</a>
+                            </li>
+                            <li>
+                                <a href="">Bottom Wear</a>
+                            </li>
+                            <li>
+                                <a href="">Sleepwear</a>
+                            </li>
+
+
+                           
+                        </ul>
+
+                        <!-- second -->
+
+                        <ul>
+                            <h3>Tops</h3>
+                            <li>
+                                <a href="">Tops</a>
+                            </li>
+                            <li><a href="">Indian wear</a>
+                            </li>
+                            <li>
+                                <a href="">sports wear</a>
+                            </li>
+                            <li>
+                                <a href="">Lingerie</a>
+                            </li>
+                            <li>
+                                <a href="">Dresses</a>
+                            </li>
+                            <li>
+                                <a href="">Bottom Wear</a>
+                            </li>
+                            <li>
+                                <a href="">Sleepwear</a>
+                            </li>
+
+
+                           
+                        </ul>
+
+                        <!-- third -->
+
+                        <ul>
+                            <h3>Bottoms</h3>
+                            <li>
+                                <a href="">Tops</a>
+                            </li>
+                            <li><a href="">Indian wear</a>
+                            </li>
+                            <li>
+                                <a href="">sports wear</a>
+                            </li>
+                            <li>
+                                <a href="">Lingerie</a>
+                            </li>
+                            <li>
+                                <a href="">Dresses</a>
+                            </li>
+                            <li>
+                                <a href="">Bottom Wear</a>
+                            </li>
+                            <li>
+                                <a href="">Sleepwear</a>
+                            </li>
+
+
+                         
+                        </ul>
+
+                        <!-- fourth -->
+
+                        <ul>
+                            <h3>Essentials</h3>
+                            <li>
+                                <a href="">Tops</a>
+                            </li>
+                            <li><a href="">Indian wear</a>
+                            </li>
+                            <li>
+                                <a href="">sports wear</a>
+                            </li>
+                            <li>
+                                <a href="">Lingerie</a>
+                            </li>
+                            <li>
+                                <a href="">Dresses</a>
+                            </li>
+                            <li>
+                                <a href="">Bottom Wear</a>
+                            </li>
+                            <li>
+                                <a href="">Sleepwear</a>
+                            </li>
+
+
+                            
+                        </ul>
+
+                        <!-- fifth -->
+
+                        <ul>
+                            <h3>Accessories</h3>
+                            <li>
+                                <a href="">Tops</a>
+                            </li>
+                            <li><a href="">Indian wear</a>
+                            </li>
+                            <li>
+                                <a href="">sports wear</a>
+                            </li>
+                            <li>
+                                <a href="">Lingerie</a>
+                            </li>
+                            <li>
+                                <a href="">Dresses</a>
+                            </li>
+                            <li>
+                                <a href="">Bottom Wear</a>
+                            </li>
+                            <li>
+                                <a href="">Sleepwear</a>
+                            </li>
+
+
+                           
+                        </ul>
+
+                        <!-- sixth -->
+                        <ul>
+                            <h3>Footwear</h3>
+                            <li>
+                                <a href="">Tops</a>
+                            </li>
+                            <li><a href="">Indian wear</a>
+                            </li>
+                            <li>
+                                <a href="">sports wear</a>
+                            </li>
+                            <li>
+                                <a href="">Lingerie</a>
+                            </li>
+                            <li>
+                                <a href="">Dresses</a>
+                            </li>
+                            <li>
+                                <a href="">Bottom Wear</a>
+                            </li>
+                            <li>
+                                <a href="">Sleepwear</a>
+                            </li>
+                           
+                        </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>  
+            <div id="navbar-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="homepageFilter" type="text" placeholder= "What are you looking for?">
+            </div>
+            
+        </div>
+
+        <!-- sign Up sign In -->
+        <div>
+            <a href="">More</a>
+            <a href="">Sign Up / Sign In</a>
+            <a href=""><i class="fa-regular fa-heart"></i></a>
+            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+    
+    </div>
+
+    <!-- body image grid -->
+
+    <div id="image-grid">
+        <div>
+            <img src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Women-14Sept2022.jpg" alt="">
+            <button>SHOP WOMEN</button>
+        </div>
+        <div>
+            <img src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Men-14Sept2022.jpg" alt="">
+            <button>SHOP MEN</button>
+        </div>
+        <div>
+            <img src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Girls-14Sept2022.jpg" alt="">
+            <button>SHOP GIRLS</button>
+        </div>
+        <div>
+            <img src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Boys-14Sept2022.jpg" alt="">
+            <button>SHOP BOYS</button>
+        </div>
+    </div>
+
+    <!-- subscribe and download -->
+
+    <div id="subs-download">
+        <div id="subscribe">
+            <h2>Subscribe to our awesome emails.</h2>
+            <p>Get our latest offers and news straight in your inbox.</p>
+            <div>
+                <input type="text" placeholder="Please enter an email address">
+                <button>Subscribe</button>
+            </div>
+            
+        </div>
+        <div id="download">
+            <h2>Download our apps</h2>
+            <p>Shop our products and offers on-the-go.</p>
+            <div>
+                <button><div><i class="fa-brands fa-apple"></i></div> Download on the <br><span>App Store</span></button>
+                <button><div><i class="fa-brands fa-google-play"></i></div> Get it on <br><span>Google Play</span></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer 1 links -->
+
+
+    <hr>
+    <div id="footer-1">
+       
+        <div>
+            
+            <ul>
+                <h4>Women</h4>
+                <li><a href="">Tops</a></li>  
+                <li><a href="">Dresses & Jumpsuits</a></li>
+                <li><a href="">Sportswear</a></li>
+                <li><a href="">Bottoms</a></li>
+                <li><a href=""> Winterwear</a></li>
+                <li><a href="">Ethnicwear</a></li>
+                <li><a href="">Lingerie</a></li>
+                <li><a href="">Sleepwear</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">Shoes</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Men</h4>
+            <ul>
+                <li><a href=""> Tops</a></li>
+                <li><a href="">Bottoms</a></li>
+                <li><a href="">Sportswear</a></li>
+                <li><a href="">Winterwear</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">Shoes</a></li>
+                <!-- <li><a href=""></a></li>
+                <li><a href=""></a></li> -->
+            </ul>
+        </div>
+        <div>
+            <h4>Boys</h4>
+            <ul>
+                <li><a href="">Tops</a></li>
+                <li><a href="">Bottoms</a></li>
+                <li><a href="">Indian Wear</a></li>
+                <li><a href="">Winter Wear</a></li>
+                <li><a href="">Essentials</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">Shoes</a></li>
+                <!-- <li><a href=""></a></li> -->
+            </ul>
+        </div>
+        <div>
+            <h4>Girls</h4>
+            <ul>
+                <li><a href="">Tops</a></li>
+                <li><a href="">Bottoms</a></li>
+                <li><a href="">Indian Wear</a></li>
+                <li><a href="">Winter Wear</a></li>
+                <li><a href="">Essentials</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">Shoes</a></li>
+                <!-- <li><a href=""></a></li> -->
+            </ul>
+        </div>
+        <div>
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="">Offers</a></li>
+                <li><a href="">Magazine</a></li>
+                <!-- <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li> -->
+            </ul>
+        </div>
+        <div>
+            <h4>About</h4>
+            <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">Write to us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Take a Tour</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Store Locator</a></li>
+                <li><a href="">Landmark Cares</a></li>
+                <!-- <li><a href=""></a></li> -->
+            </ul>
+        </div>
+        <div>
+            <h4>Help</h4>
+            <ul>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Shipping</a></li>
+                <li><a href="">Returns Process</a></li>
+                <li><a href="">Returns Policy</a></li>
+                <li><a href="">Help Centre</a></li>
+                <!-- <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li> -->
+            </ul>
+        </div>
+       
+    </div>
+     <hr>
+     <!-- footer 2 -->
+     <!-- contact -->
+
+     <div id="contact">
+        <div>
+            <div>
+                <div class="circular-logo"><i class="fa-solid fa-phone"></i></div>
+                <div> 
+                    <p>Talk to us</p>
+                    <p><a href="">1800-123-1444</a></p>
+                </div>
+            </div>
+            <div>
+                <div class="circular-logo"><i class="fa-solid fa-circle-info"></i></div>
+                <div>
+                    <p>Helpcentre</p>
+                    <p><a href="">help.maxfashion.com</a></p>
+                </div>
+            </div>
+            <div>
+                <div class="circular-logo"><i class="fa-regular fa-envelope"></i></div>
+                <div>
+                    <p>Write to us</p>
+                    <p><a href="">help.in@maxfashion.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="circular-logo"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="circular-logo"><i class="fa-brands fa-twitter"></i></div>
+            <div class="circular-logo"><i class="fa-brands fa-instagram"></i></div>
+        </div>
+     </div>
+
+     <hr>
+     <!-- Footer - 3 / end -->
+
+     <div id="footer-end">
+        <div>
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div>
+            <p>© 2022 Retail World Limited.&emsp;&emsp; &ensp; &emsp;</p>
+            <p><a href="">Terms & Conditions</a> - <a href="">Privacy Policy</a></p>
+        </div>
+     </div>
+</body>
+
+</html>
