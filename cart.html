@@ -5,7 +5,7 @@
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous">
 
     </script>
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="cart.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,7 +43,7 @@
                 alt="">
             <ul>
                 <li>
-                    <a href="IndianwearPage.html">Women</a>
+                    <a href="">Women</a>
                     <div class="megamenu">
                         <div class="megamenucontent">
 
@@ -1019,7 +1019,7 @@
             <a href="">More</a>
             <a id="signup-click" href="">Sign Up / Sign In</a>
             <a href=""><i class="fa-regular fa-heart"></i></a>
-            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
 
     </nav>
@@ -1066,31 +1066,60 @@
     <!-- Body  content-->
 
 
-    <!-- body image grid -->
+    <h2>Your Shopping Basket</h2>
+    <hr>
+    <h4><span id="noofprod">0</span> Products</h4>
 
-    <div id="image-grid">
-        <div>
-            <img src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Women-14Sept2022.jpg" alt="">
-            <button onclick="indianwearredirect()">SHOP WOMEN</button>
+    <div id="cart-container">
+        <div id="cartdiv">
+            <!-- Append cart Items here -->
+
+
         </div>
         <div>
-            <img src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Men-14Sept2022.jpg" alt="">
-            <button>SHOP MEN</button>
-        </div>
-        <div>
-            <img src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Girls-14Sept2022.jpg" alt="">
-            <button>SHOP GIRLS</button>
-        </div>
-        <div>
-            <img src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Boys-14Sept2022.jpg" alt="">
-            <button>SHOP BOYS</button>
+            <div>
+                <h5>Deliver to</h5>
+                <input type="number" name="" id="" placeholder="Enter Pincode">
+                <button>Check</button>
+            </div>
+
+            <div>
+                <img src="https://www.maxfashion.in/static/icons/gift-box.png" alt="">
+                <div>
+                    <h4>Offers for you!</h4>
+                    <p>Choose and apply voucher in 2 simple steps</p>
+                </div>
+            </div>
+            
+            <div>
+                <div>
+                    <p>Total MRP</p>
+                    <h5 id="mrp_price">₹2098</h5>
+                </div>
+                <div>
+                    <p>Offer Discount</p>
+                    <h5 id="discount">-₹630</h5>
+                </div>
+                <div>
+                    <p>Shipping charge</p>
+                    <h5>Free</h5>
+                </div>
+                &nbsp
+                &nbsp
+                <div>
+                    <h4>Total</h4>
+                    <h4 id="finalprice">₹1468</h4>
+                </div>
+                <div>
+                    <button>Checkout now</button>
+                    
+                </div>
+               
+            </div>
+
         </div>
     </div>
 
-
-<!--     
-stop here and don
-know -->
 
     <!-- Footer and Download ****************************************** -->
 
@@ -1115,6 +1144,8 @@ know -->
             </div>
         </div>
     </div>
+
+
 
     <!-- Footer 1 links -->
 
@@ -1267,5 +1298,5 @@ know -->
      </div>
 
 </body>
-<script src="homepage.js"></script>
+<script src="cart.js"></script>
 </html>
