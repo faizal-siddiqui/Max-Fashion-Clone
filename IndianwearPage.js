@@ -285,7 +285,7 @@ let objArr = [
 
 ];
 
-console.log(objArr)
+// console.log(objArr)
 
 
 objArr.forEach(function(el){
@@ -355,6 +355,8 @@ objArr.forEach(function(el){
     //     }
     // }
 
+    // sticky navbar
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("Navbar");
@@ -367,7 +369,6 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-
 
 // Signup
 
@@ -393,6 +394,36 @@ function signupRemFunc(el){
     
     console.log("rem")
 }
+
+
+// otp Page
+
+let form = document.querySelector("form");
+form.addEventListener("submit", function(ele){
+    ele.preventDefault();
+    let otppage = document.querySelector("#otppage");
+    otppage.style.display="block"
+})
+
+
+
+// otppage remove
+
+let removeotp = document.getElementById("otpcut");
+removeotp.addEventListener("click", otpRemFunc);
+
+
+function otpRemFunc(el){
+    el.preventDefault();
+    let signup = document.querySelector(".form1");
+    let otppage = document.querySelector("#otppage");
+    otppage.style.display="none";
+    signup.style.display = "none";
+    console.log("rem")
+}
+
+
+
 
 
 

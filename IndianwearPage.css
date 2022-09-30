@@ -547,12 +547,12 @@ form > div > input{
     margin: 10px 0px;
 }
 
-form > div > button{
-    padding: 15px 80px;
+form > div > input[type=submit]{
+    padding: 15px 40px;
     display: block;
     margin: auto;
     margin-top: 30px;
-    margin-left: 54%;
+    margin-left: 0%;
     background-color: #303ab2;
     color: white;
     border: none;
@@ -569,6 +569,24 @@ form > h3{
     float: right;
     margin-right: 10px;
     margin-top: 10px;
+}
+
+#otppage{
+    position: fixed;
+    top: 16%;
+    left: 22.6%;
+    z-index: 90;
+    margin: auto;
+    width: 60%;
+    background-color: white;
+}
+
+#otppage > div{
+    padding: 80px 120px;
+}
+
+#otppage > h3:hover{
+    color: red;
 }
 
 #signup{
