@@ -1,23 +1,5 @@
 
     
-    
-    
-    
-    
-        // var navbar = document.getElementById("Navbar");
-        // var menu = document.getElementById("menu");
-    
-        // window.onscroll = function(){
-        //     if(window.pageYOffset >= menu.offsetTop){
-        //        
-        //         Navbar.classList.add("sticky");
-        //     }
-        //     else{
-        //         Navbar.classList.remove("sticky");
-        //         
-        //     }
-        // }
-    
         // sticky navbar
     
         window.onscroll = function() {myFunction()};
@@ -133,6 +115,9 @@
         function indianwearredirect(){
             window.location.href="IndianwearPage.html";
         }
+
+
+       
         
         
         

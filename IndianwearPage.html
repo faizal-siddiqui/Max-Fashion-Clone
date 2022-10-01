@@ -53,7 +53,7 @@
                                 <li>
                                     <a href="">Tops</a>
                                 </li>
-                                <li><a href="">Indian wear</a>
+                                <li><a style="color: red;" href="IndianwearPage.html">Indian wear</a>
                                 </li>
                                 <li>
                                     <a href="">sports wear</a>
@@ -339,7 +339,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="">Men</a>
+                    <a href="mens.html">Men</a>
                     <div class="megamenu">
                         <div class="megamenucontent">
 
@@ -347,7 +347,7 @@
                             <ul>
                                 <h3>Online Exclusives</h3>
                                 <li>
-                                    <a href="">Tops</a>
+                                    <a style="color: red" href="mens.html">Tops</a>
                                 </li>
                                 <li><a href="">Indian wear</a>
                                 </li>
@@ -1110,24 +1110,46 @@
 
     <div id="filter-div">
         <div>
+            <div>
+                <div id="selector">
+                    Select Price
+                </div>
+                <input type="range" id="slider" name="vol" min="100" max="2000">
+               
+            </div>
+            
             <select name="" id="">
-                <option value="">Price</option>
+                <option value="">Browse</option>
+                <option value="">Online Only</option>
+            </select>
+            <select name="" id="discountfilter">
+                <option value="">Discount Range</option>
+                <option value="100">₹ 0 - ₹ 100</option>
+                <option value="200">₹ 0 - ₹ 200</option>
+                <option value="300">₹ 0 - ₹ 300</option>
+                <option value="400">₹ 0 - ₹ 400</option>
+                <option value="500">₹ 0 - ₹ 500</option>
+                <option value="600">₹ 0 - ₹ 600</option>
+                <option value="700">₹ 0 - ₹ 700</option>
+                <option value="800">₹ 0 - ₹ 800</option>
             </select>
             <select name="" id="">
-                <option value="">Price</option>
+                <option value="">Family</option>
             </select>
-            <select name="" id="">
-                <option value="">Price</option>
+            <select name="" id="productstype">
+                <option value="">Type</option>
+                <option value="Palazzo Set">Palazzo Set</option>
+                <option value="Shirt Dress">Shirt Dress</option>
+                <option value="Floral Print">Floral Print</option>
+                <option value="Embroided Dress">Embroided Dress</option>
+                <option value="Elasticated Plazzo">Elasticated Plazzo</option>
+                <option value="Kurta">Kurta</option>
+                <option value="Sleeves">Sleeves</option>
+                <option value="Sleeveless">Sleeveless</option>
             </select>
-            <select name="" id="">
-                <option value="">Price</option>
-            </select>
-            <select name="" id="">
-                <option value="">Price</option>
-            </select>
-            <select name="" id="">
-                <option value="">Price</option>
-            </select>
+            <!-- <select name="" id="">
+                <option value="">Size</option>
+            </select> -->
             
         </div>
         <div>
@@ -1139,11 +1161,13 @@
     <!-- Sort Div -->
 
     <div id="sort-parent-div">
-        <h4><span id="sort">40</span>&nbsp; products</h4>
+        <h4><span id="noofproducts">40</span>&nbsp; products</h4>
         <div>
             <h4>Sort by</h4>
-            <select name="" id="">
+            <select name="" id="relevancesort">
                 <option value="">Relevance</option>
+                <option value="low">Price Low to High</option>
+                <option value="high">Price High to Low</option>
             </select>
         </div>
     </div>
@@ -1159,7 +1183,7 @@
 
 
     <div id="loadmore">
-        <h4><span>40</span> products out of <span>336</span></h4>
+        <h4><span id="noofprod">40</span> products out of <span>336</span></h4>
         <button>LOAD MORE PRODUCTS</button>
     </div>
 
@@ -1340,5 +1364,5 @@
 
 </body>
 <script src="IndianwearPage.js"></script>
-<script src="signup.js"></script>
+
 </html>
