@@ -440,6 +440,9 @@ form > h3{
     height: 50px;
     color: #4660c5;
     font-weight: 550;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
 }
 
 
