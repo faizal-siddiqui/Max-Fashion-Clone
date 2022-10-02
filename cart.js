@@ -124,7 +124,7 @@
         
         let homepage = document.querySelector("#homepageredirect");
         homepage.addEventListener("click", function(){
-            window.location.href="homepage.html";
+            window.location.href="index.html";
         })    
 
 
@@ -158,7 +158,7 @@
             return acc + +(el.mrp) - +(el.price)
         }, 0)
 
-        discount.innerText = `₹${discount_price}`;
+        discount.innerText = `-₹${discount_price}`;
 
 
         // FINal PRIce UPDtate
@@ -262,7 +262,7 @@
                 return acc + +(el.mrp) - +(el.price)
             }, 0)
     
-            discount.innerText = `₹${discount_price}`;
+            discount.innerText = `-₹${discount_price}`;
 
             finalprice.innerText = total_mrp - discount_price;
         }

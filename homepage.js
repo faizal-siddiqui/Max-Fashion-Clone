@@ -106,7 +106,7 @@
         
         let homepage = document.querySelector("#homepageredirect");
         homepage.addEventListener("click", function(){
-            window.location.href="homepage.html";
+            window.location.href="index.html";
         })
         
 
